@@ -14,7 +14,9 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 ### Setup Docker
 
 ### Get started with JavaScript
+1. Install nvm
 
 ### Get started with Go
+1. Install goenv
 
 ### Get started with Java
