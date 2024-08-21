@@ -76,9 +76,39 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```
 ##### Tips
 1. Serve a static site
-   <pre>
-   <code>A static site project: <a href="https://github.com/go-kratos/examples/tree/main/http/static">https://github.com/go-kratos/examples/tree/main/http/static</a></code>
-   </pre>
+   ```go
+   package main
+   
+   import (
+   	"flag"
+   	"github.com/gorilla/mux"
+   	"log"
+   	"net/http"
+   	"path"
+   	"time"
+   )
+   
+   func main() {
+   	var dir string
+   
+   	flag.StringVar(&dir, "dir", ".", "the directory to serve files from. Defaults to the current dir")
+   	flag.Parse()
+   	r := mux.NewRouter()
+   
+   	// This will serve files in assets folder under http://localhost:8000/<filename>
+   	r.PathPrefix("/").Handler(http.FileServer(http.Dir(path.Join(dir, "assets"))))
+   
+   	srv := &http.Server{
+   		Handler: r,
+   		Addr:    "127.0.0.1:8000",
+   		// Good practice: enforce timeouts for servers you create!
+   		WriteTimeout: 15 * time.Second,
+   		ReadTimeout:  15 * time.Second,
+   	}
+   
+   	log.Fatal(srv.ListenAndServe())
+   }
+   ```
 
 ### Get started with Java
 1. Install jenv
