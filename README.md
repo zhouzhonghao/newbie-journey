@@ -8,6 +8,10 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 ### Setup Git
 
 ### Setup Nginx
+1. Install nvm
+   ```bash
+   brew install nginx
+   ```
 
 ### Setup MySQL/MariaDB
 
