@@ -37,4 +37,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 
 ### Get started with Java
 1. Install jenv
+   ```bash
+   brew install jenv
+   ```
 2. Install java runtime
