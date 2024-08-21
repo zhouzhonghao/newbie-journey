@@ -2,6 +2,8 @@
 
 ## Setup your development environment
 
+### Setup Homebrew
+
 ### Setup Git
 
 ### Setup Nginx
