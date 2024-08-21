@@ -17,8 +17,10 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 
 ### Setup Docker
 1. Get Docker Desktop Installer
-   Link: [https://docs.docker.com/get-started/get-docker](https://docs.docker.com/get-started/get-docker)
-3. Install via installer
+   <pre>
+   <code>The download page: <a href="https://docs.docker.com/get-started/get-docker">https://docs.docker.com/get-started/get-docker</a></code>
+   </pre>
+2. Install via installer
 
 ### Get started with JavaScript
 1. Install nvm
