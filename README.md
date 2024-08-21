@@ -14,17 +14,25 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 ### Setup Docker
 
 ### Get started with JavaScript
-1. Install nvm<br/>
-  `brew install nvm`
+1. Install nvm
+   ```bash
+   brew install nvm
+   ```
 2. Install node.js runtime
-  `nvm install 22.6.0
-nvm alias default 22.6.0`
+   ```bash
+   nvm install 22.6.0
+   nvm alias default 22.6.0
+   ```
 
 ### Get started with Go
-1. Install goenv<br/>
-  `brew install goenv`
+1. Install goenv
+   ```bash
+   brew install goenv
+   ```
 2. Install go runtime
-  `goenv install 1.23.0
-goenv global 1.23.0`
+   ```bash
+   goenv install 1.23.0
+   goenv global 1.23.0
+   ```
 
 ### Get started with Java
