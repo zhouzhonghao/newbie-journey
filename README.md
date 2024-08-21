@@ -42,7 +42,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```bash
    npx express-generator .
    ```
-3. Generate an koa2 project
+3. Generate a koa2 project
    ```bash
    npx -p koa-generator koa2 .
    ```   
