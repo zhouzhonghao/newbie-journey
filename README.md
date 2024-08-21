@@ -6,6 +6,10 @@
 
 ### Setup Nginx
 
+### Setup MySQL/MariaDB
+
+### Setup Docker
+
 ### Get started with JavaScript
 
 ### Get started with Go
