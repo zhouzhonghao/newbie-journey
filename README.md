@@ -38,6 +38,14 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```bash
    npx serve .
    ```
+2. Generate a react project
+   ```bash
+   npm create react-app .
+   ```
+3. Generate a nextjs project
+   ```bash
+   npm create next-app .
+   ```
 
 ### Get started with Go
 1. Install goenv
