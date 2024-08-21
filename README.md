@@ -16,11 +16,15 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 ### Get started with JavaScript
 1. Install nvm<br/>
   `brew install nvm`
-3. Install node.js runtime
+2. Install node.js runtime
+  `nvm install 22.6.0
+nvm alias default 22.6.0`
 
 ### Get started with Go
 1. Install goenv<br/>
   `brew install goenv`
 2. Install go runtime
+  `goenv install 1.23.0
+goenv global 1.23.0`
 
 ### Get started with Java
