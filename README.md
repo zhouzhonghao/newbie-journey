@@ -23,6 +23,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
 2. Install via installer
 
 ### Get started with JavaScript
+##### Setup
 1. Install nvm
    ```bash
    brew install nvm
