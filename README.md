@@ -32,7 +32,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    nvm install 22.6.0
    nvm alias default 22.6.0
    ```
-#### tips
+##### tips
 1. Serve a static site
    ```bash
    npx serve .
