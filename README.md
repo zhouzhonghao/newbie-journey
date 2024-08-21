@@ -50,6 +50,10 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```bash
    npm create plasmo .
    ```
+5. Generate a vite project
+   ```bash
+   npm create vite .
+   ```
 
 ### Get started with Go
 1. Install goenv
