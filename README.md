@@ -42,19 +42,23 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```bash
    npx express-generator .
    ```
-3. Generate a react project
+3. Generate an koa2 project
+   ```bash
+   npx -p koa-generator koa2 .
+   ```   
+4. Generate a react project
    ```bash
    npm create react-app .
    ```
-4. Generate a nextjs project
+5. Generate a nextjs project
    ```bash
    npm create next-app .
    ```
-5. Generate a plasmo project
+6. Generate a plasmo project
    ```bash
    npm create plasmo .
    ```
-6. Generate a vite project
+7. Generate a vite project
    ```bash
    npm create vite .
    ```
