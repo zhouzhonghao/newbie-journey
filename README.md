@@ -64,6 +64,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```
 
 ### Get started with Go
+##### Setup
 1. Install goenv
    ```bash
    brew install goenv
@@ -73,6 +74,11 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    goenv install 1.23.0
    goenv global 1.23.0
    ```
+##### Tips
+1. Serve a static site
+   <pre>
+   <code>A static site project: <a href="https://github.com/go-kratos/examples/tree/main/http/static">https://github.com/go-kratos/examples/tree/main/http/static</a></code>
+   </pre>
 
 ### Get started with Java
 1. Install jenv
