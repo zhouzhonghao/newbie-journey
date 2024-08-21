@@ -48,7 +48,7 @@ Homebrew is the easiest and most flexible way to install the UNIX tools Apple di
    ```
 4. Generate a plasmo project
    ```bash
-   npm create plasmo-app .
+   npm create plasmo .
    ```
 
 ### Get started with Go
