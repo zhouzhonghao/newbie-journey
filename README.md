@@ -4,6 +4,8 @@
 
 ### Setup Git
 
+### Setup Nginx
+
 ### Get started with JavaScript
 
 ### Get started with Go
